@@ -55,5 +55,3 @@ This project contributes to the development of accessible communication technolo
 Future research will explore more complex challenges such as automated sign language annotation and the development of real-time recognition systems to further enhance the accessibility and usability of these technologies.
 
 ---
-
-Make sure to place the images in the `images` folder in your main repository directory for this to work properly.
