@@ -6,7 +6,7 @@ This repository contains the implementation and research findings of a project a
 
 The objective of this research is to enhance the recognition of Irish Sign Language fingerspelling through computational processing. This repository includes the following key components:
 
-- **Dataset**: Utilization of the Irish Sign Language Hand Shape (ISL-HS) dataset, which includes both static and dynamic gestures representing the ISL alphabet.
+- **Dataset**: Utilization of the [Irish Sign Language Hand Shape (ISL-HS) dataset](https://github.com/marlondcu/ISL), which includes both static and dynamic gestures representing the ISL alphabet.
 - **Feature Extraction**: Conversion of video frames into Motion History Images (MHIs) to capture the dynamic aspects of sign language gestures.
 - **Data Augmentation**: Application of various augmentation techniques to expand the dataset and improve model robustness.
 - **CNN Architectures**: Evaluation of multiple CNN models, including ResNet, Xception, Densenet, and Inception, to identify the most effective architectures for ISL recognition.
@@ -21,7 +21,19 @@ The objective of this research is to enhance the recognition of Irish Sign Langu
 
 ## Results
 
-The research highlights that Densenet architectures achieved the highest accuracy rates, with Densenet 121 reaching up to 90.38%. Other CNN models also showed promising results, demonstrating the potential of using MHIs combined with CNNs for sign language recognition.
+The research highlights that Densenet architectures achieved the highest accuracy rates. Below is the table of results:
+
+| Model              | Accuracy (%) |
+|--------------------|--------------|
+| Densenet 121       | 90.38        |
+| Densenet 169       | 89.60        |
+| Densenet 201       | 90.10        |
+| Xception           | 80.56        |
+| ResNet 101 V2      | 85.62        |
+| ResNet 50 V2       | 82.84        |
+| ResNet 152 V2      | 82.24        |
+| Inception ResNet V2| 77.64        |
+| Inception V3       | 75.76        |
 
 ## Significance
 
