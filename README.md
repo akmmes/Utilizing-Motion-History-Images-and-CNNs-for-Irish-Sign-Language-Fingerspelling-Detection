@@ -16,15 +16,15 @@ The objective of this research is to enhance the recognition of Irish Sign Langu
 
 1. **Data Preprocessing**: Conversion of the ISL-HS dataset into MHIs using custom Python scripts and OpenCV for capturing temporal motion information.
 
-   ![Data Preprocessing](./images/image1.png)
+   ![Data Preprocessing](./Images/image1.png)
 
 2. **Data Augmentation**: Implementation of augmentation techniques such as Gaussian noise, affine transformations, and scaling to enhance the dataset's diversity.
 
-   ![Data Augmentation](./images/image2.png)
+   ![Data Augmentation](./Images/image2.png)
 
 3. **Model Training**: Training various CNN architectures on the augmented dataset using TensorFlow and Keras, with fine-tuning to optimize model performance.
 
-   ![Model Training](./images/image3.png)
+   ![Model Training](./Images/image3.png)
 
 4. **Evaluation Metrics**: Assessment of models based on accuracy, precision, recall, and F1-Score to determine their effectiveness in recognizing ISL fingerspelling.
 
@@ -44,7 +44,7 @@ The research highlights that Densenet architectures achieved the highest accurac
 | Inception ResNet V2| 77.64        |
 | Inception V3       | 75.76        |
 
-   ![Results](./images/image4.png)
+   ![Results](./Images/image4.png)
 
 ## Significance
 
