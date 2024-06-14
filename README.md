@@ -1,4 +1,4 @@
-# Isolated Irish Sign Language Fingerspelling Recognition
+# Isolated Irish Sign Language Fingerspelling Recognition with Motion History Images
 
 This repository contains the implementation and research findings of a project aimed at recognizing the Irish Sign Language (ISL) alphabet using Motion History Images (MHIs) and Convolutional Neural Networks (CNNs). The project addresses the need for improved communication tools for the deaf and hard-of-hearing community by leveraging state-of-the-art deep learning techniques.
 
